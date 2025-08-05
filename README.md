@@ -25,3 +25,5 @@ Este proyecto fue creado con Cypress para automatizar el flujo de autenticación
 2. Instalar dependencias:
    ```bash
    npm install
+   
+npx cypress open
