@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "types": [
+      "cypress",
+      "mocha",
+      "chai",
+      "cypress-real-events"   
+    ],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": "./"
+  },
+  "include": [
+    "cypress/**/*.ts",
+    "cypress/support/**/*.ts"
+  ]
+}
